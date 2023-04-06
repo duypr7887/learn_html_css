@@ -1,0 +1,34 @@
+<!-- 
+    3 cách sử dụng CSS
+    a, Internal
+       Viết bất cứ đâu trong thẻ html
+       <style> </style> 
+    b, External
+        tạo 1 file CSS và liên kết đến file CSS bằng thẻ <link>
+    c, Inline
+        Viết luôn vào trong thẻ 
+        <tên thẻ style = "">
+    
+    ID và Class
+        Sử dụng # để gọi ID trong CSS, chỉ có 1 ID duy nhất.
+        Sử dụng dấu . để gọi class trong CSS.
+        .class1.class2 áp dụng cho tất cả các thẻ có chứa class 1 và 2 
+        .class1 class2 áp dụng cho class2 là con của class1 
+        * chọn tất cả các thẻ
+    Độ ưu tiên khi sử dụng CSS:
+        1. Internal, External (cái nào được gọi sau sẽ ưu tiên hơn)
+        2. Inline - 1000 
+        3. #id - 100
+        4. .class -10
+        5. tag -1
+        cái nào nhiều điểm hơn thì độ ưu tiên cao hơn
+        6. Equal specificity? (ưu tiên cái mới hơn trong 2 selector giống nhau)
+        7. Universal selector and inherited? 
+        8. !important độ ưu tiên cao nhất
+    CSS Variable? Đặt biến trong CSS
+        --tên biến: ;
+        sử dụng lớp giả
+        root {
+            --tên biến: giá trị:
+        } (sử dụng cho mọi nơi)
+ -->
